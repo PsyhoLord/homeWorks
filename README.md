@@ -1,2 +1,2 @@
 # homeWorks
-GoIT&Terrasoft home works
+GoIT&Terrasoft homeworks
