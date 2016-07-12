@@ -1,2 +1,2 @@
 # homeWorks
-GoIT&Terrasoft homeworks
+Homeworks for GoIT&Terrasoft course
