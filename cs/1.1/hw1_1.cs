@@ -15,9 +15,12 @@
 //}
 
 using System;
-
+// # Такое расположение фигурных скобок хорошо если проект мелкий.
+// # В большом проекте - лучше писать с новой строки,
+// # так как оно создает видимость в програме отдельных блоков
 public class Programm {
 	static void Main(){
+		// * Очень много повторения кода. Подумай как это поправить.
 		Console.WriteLine("Type byte: default " + default(byte) + ", min " + byte.MinValue + ", max " + byte.MaxValue);
 		Console.WriteLine("Type sbyte: default " + default(sbyte) + ", min " + sbyte.MinValue + ", max " + sbyte.MaxValue);
 		Console.WriteLine("Type short: default " + default(short) + ", min " + short.MinValue + ", max " + short.MaxValue);
@@ -32,10 +35,11 @@ public class Programm {
 		Console.WriteLine("Type byte: default " + default(bool));
 		Console.WriteLine("Type byte: default " + default(string));
 		Console.WriteLine("Type byte: default " + default(char));
-		
+		// !!! неправильный формат вывода на экран, внимательно просмотри условие
+		// !!! а последнии 3.... на экране вообще не ясно что делают...
 		Console.ReadKey();
 	}
-
+// # не оставляй такие пробелы
 
 }
 
